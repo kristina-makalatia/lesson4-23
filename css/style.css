@@ -1,3 +1,5 @@
+/*@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-mtavruli-bold/css/bpg-nino-mtavruli-bold.min.css");
+*/
 .date {
 	width: 56px;
 	height: 56px;
@@ -5,6 +7,9 @@
 	padding: 7px 10px;
 	font-size: 37px;
 	color: #fff;
+}
+.article-title {
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
 .text-block {
 	display: inline-block;
@@ -17,9 +22,16 @@
 }
 .text1 {
 	margin-bottom: 21px;
+	font-family: 'ALK Life';
+	font-weight: bold;
+	font-style: italic;
 }
-
-
+.latinuri-absoluturi {
+	font-family: 'Viaoda Libre', cursive;
+}
+.latinuri-relatiuri {
+ 	font-family: 'Roboto';
+}
 /*contact page*/
 .section-contact {
 	background-color: #E6E6E6;
@@ -39,4 +51,14 @@
 }
 .contact-a {
 	color: black;
+}
+
+/*footer styles*/
+.divider {
+	width: 1px;
+	height: 27px;
+	background-color: #363E97;
+	display: inline-block;
+	margin-right: 32px;
+	margin-left: 35px;
 }
